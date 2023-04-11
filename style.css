@@ -34,7 +34,7 @@ body {
   
   #jokeBtn {
     display: block;
-    margin: 20px auto;
+    margin: 0 auto 20px auto;
     padding: 12px 28px;
     background-color: #4CAF50;
     color: #fff;
@@ -44,11 +44,13 @@ body {
     font-size: 16px;
     font-weight: 600;
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
   }
   
   #jokeBtn:hover {
     background-color: #2e8b57;
-    transform: scale(1.05);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.12);
   }
   
   #jokeContainer {
